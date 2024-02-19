@@ -1,15 +1,15 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="kr">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="/favicon.png" />
     
-		<link rel="modulepreload" href="/_app/immutable/entry/start._0K66wmM.js">
-		<link rel="modulepreload" href="/_app/immutable/chunks/entry.vc8r4jSa.js">
+		<link rel="modulepreload" href="/_app/immutable/entry/start.NHyXNvrW.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/entry.2JrCSlrM.js">
 		<link rel="modulepreload" href="/_app/immutable/chunks/scheduler.P_9O6A-V.js">
 		<link rel="modulepreload" href="/_app/immutable/chunks/index.gHtQ8ANJ.js">
-		<link rel="modulepreload" href="/_app/immutable/entry/app.JVvj0Tx3.js">
+		<link rel="modulepreload" href="/_app/immutable/entry/app.W1ELimRj.js">
 		<link rel="modulepreload" href="/_app/immutable/chunks/preload-helper.0HuHagjb.js">
 		<link rel="modulepreload" href="/_app/immutable/chunks/index.V0fiYRm6.js">
   </head>
@@ -17,7 +17,7 @@
     <div style="display: contents">
 			<script>
 				{
-					__sveltekit_16fgi9p = {
+					__sveltekit_1ausn5f = {
 						base: "",
 						env: null
 					};
@@ -25,13 +25,25 @@
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("/_app/immutable/entry/start._0K66wmM.js"),
-						import("/_app/immutable/entry/app.JVvj0Tx3.js")
+						import("/_app/immutable/entry/start.NHyXNvrW.js"),
+						import("/_app/immutable/entry/app.W1ELimRj.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element);
 					});
 				}
 			</script>
 		</div>
+    <script>
+      HTMLCanvasElement.prototype.getContext = (function (origFn) {
+        return function (type, attributes) {
+          if (type === 'webgl2') {
+            attributes = Object.assign({}, attributes, {
+              preserveDrawingBuffer: true,
+            })
+          }
+          return origFn.call(this, type, attributes)
+        }
+      })(HTMLCanvasElement.prototype.getContext)
+    </script>
   </body>
 </html>
