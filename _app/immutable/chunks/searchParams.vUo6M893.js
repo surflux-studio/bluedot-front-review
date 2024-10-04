@@ -1,1 +1,0 @@
-import{g as m}from"./entry.D28hRbA_.js";function h(r,s){const e=new URL(window.location.href),[o,t]=r.split("?");if(t){const a=new URLSearchParams(t);for(const[c,i]of a.entries())e.searchParams.set(c,i||"true")}for(const a in s)s[a]?e.searchParams.set(a,s[a]):e.searchParams.delete(a);const n=decodeURIComponent(`${o}?${e.searchParams.toString()}`);return m(n)}export{h as g};
