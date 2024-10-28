@@ -1,0 +1,1 @@
+import{s as o}from"../chunks/scheduler.CX667Sq5.js";import{S as s,i as n}from"../chunks/index.DOULIwIP.js";import{g as r}from"../chunks/searchParams.D0JwMTav.js";function a(e){return r("/viewer?feed"),[]}class p extends s{constructor(t){super(),n(this,t,a,null,o,{})}}export{p as component};
