@@ -1,0 +1,1 @@
+import{s as n,t as o,d as i,i as c,n as s,f as u}from"../chunks/scheduler.nR6IvPDU.js";import{S as d,i as m}from"../chunks/index.BYRHYcqC.js";function l(a){let t;return{c(){t=o("/users/edit?userIdx")},l(e){t=i(e,"/users/edit?userIdx")},m(e,r){c(e,t,r)},p:s,i:s,o:s,d(e){e&&u(t)}}}class x extends d{constructor(t){super(),m(this,t,null,l,n,{})}}export{x as component};
