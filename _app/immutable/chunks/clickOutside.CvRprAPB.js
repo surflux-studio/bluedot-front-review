@@ -1,1 +1,0 @@
-function i(n){const t=n-1;return t*t*t+1}function o(n){function t(c){const e=c.target;e&&!n.contains(e)&&n.dispatchEvent(new CustomEvent("outsideclick"))}return window.addEventListener("click",t),{destroy(){window.removeEventListener("click",t)}}}export{i as a,o as c};
