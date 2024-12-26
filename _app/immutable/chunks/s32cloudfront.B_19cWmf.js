@@ -1,0 +1,1 @@
+import{C as r}from"./Header.q6v80JDx.js";function i(t,o){if(!String(t).includes("bluedot-media"))return t;const n=t.split("/").at(-1);return o?`${r}/resize?key=${n}&side=${o}`:`${r}/${n}`}export{i as s};
