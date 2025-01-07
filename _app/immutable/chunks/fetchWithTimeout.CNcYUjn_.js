@@ -1,0 +1,1 @@
+async function c(o,r={},e,s){const n=e||new AbortController;let i;try{return await fetch(o,{...r,signal:n.signal})}catch(t){throw t.name==="AbortError"&&console.error("Request timed out"),t}}export{c as f};
