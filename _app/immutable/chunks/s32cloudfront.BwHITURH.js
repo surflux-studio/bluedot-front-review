@@ -1,1 +1,0 @@
-import{C as e}from"./sign.BxCoe6p8.js";function f(t,o){if(!t)return"";if(typeof t!="string"&&(t=t[0]||""),!String(t).includes("bluedot-media"))return t;const n=t.split("/").at(-1);return o?`${e}/resize?key=${n}&side=${o}`:`${e}/${n}`}export{f as s};
