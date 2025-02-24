@@ -1,1 +1,0 @@
-import{s as o}from"../chunks/scheduler.CCBjAsUD.js";import{S as r,i as s}from"../chunks/index.svcsDwjp.js";import{g as a}from"../chunks/searchParams.DxZwEhsv.js";function n(t){return a("/viewer",{},{replaceState:!0}),[]}class c extends r{constructor(e){super(),s(this,e,n,null,o,{})}}export{c as component};
