@@ -1,0 +1,16 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "TJN3VVBFLB.studio.surflux.bluedot",
+        "paths": [
+          "/viewer",
+          "/boxes/*",
+          "/users/*",
+          "/places/*"
+        ]
+      }
+    ]
+  }
+}
