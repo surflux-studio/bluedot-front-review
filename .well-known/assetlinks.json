@@ -3,7 +3,7 @@
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "android_app",
-      "package_name": "studio.surflux.bluedot",
+      "package_name": "surflux.studio.bluedot",
       "sha256_cert_fingerprints": [
         "6C:0B:A2:67:8E:42:6A:88:A9:FB:8A:2D:34:5D:A0:C8:02:1F:CA:C4:08:C2:F2:F9:5D:FB:D2:9D:D7:F0:26:9B"
       ]
