@@ -1,0 +1,1 @@
+async function o(r){try{const t=(await fetch(r,{method:"HEAD"})).headers.get("Content-Type");return t?t.startsWith("video/"):!1}catch(e){return console.error("Error checking file type:",e),!1}}export{o as i};
