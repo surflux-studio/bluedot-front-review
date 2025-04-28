@@ -1,0 +1,1 @@
+.glitter.svelte-1wx3tal{position:fixed;pointer-events:none;border-radius:50%;animation:svelte-1wx3tal-sparkle 1s ease-out forwards;opacity:0}@keyframes svelte-1wx3tal-sparkle{0%{transform:scale(.3) translate(0) rotate(0);opacity:1}to{transform:scale(1.2) translate(var(--dx),var(--dy)) rotate(720deg);opacity:0}}
